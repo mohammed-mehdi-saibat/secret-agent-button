@@ -23,19 +23,14 @@ body {
   text-align: center;
 }
 
-#game-container .heading {
+#game-container h1 {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-family: "VT323", monospace;
-  background-color: transparent;
-  border: transparent;
-  color: white;
-  cursor: pointer;
 }
 
 #game-container #status {
-  color: #00bfff;
+  color: #111111;
   font-size: 35px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -43,7 +38,7 @@ body {
 
 #game-container #game-board {
   height: 400px;
-  border: 1px solid #00bfff;
+  border: 1px solid white;
   border-radius: 12px;
   position: relative;
 }
@@ -54,12 +49,17 @@ body {
   width: 80px;
   height: 80px;
   color: #2c2c2c;
-  background-color: #00bfff;
+  background-color: white;
   border: none;
   border-radius: 2px;
   cursor: pointer;
-  transition: left 0.15s ease-in-out, top 0.15s ease-in-out;
+  transition: ease-in-out 0.4s;
   font-family: "VT323", monospace;
   letter-spacing: 3px;
-  position: absolute;
+}
+
+#game-container #game-board #secret-btn:hover {
+  color: white;
+  background-color: red;
+  border-radius: 2px;
 }
