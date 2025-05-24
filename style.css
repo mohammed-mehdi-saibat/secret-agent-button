@@ -68,4 +68,6 @@ body {
 .made-by {
   position: absolute;
   bottom: 10px;
+  font-size: 16px;
+  color: #00bfff;
 }
