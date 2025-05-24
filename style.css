@@ -12,6 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 #game-container {
@@ -62,4 +63,9 @@ body {
   font-family: "VT323", monospace;
   letter-spacing: 3px;
   position: absolute;
+}
+
+.made-by {
+  position: absolute;
+  bottom: 10px;
 }
