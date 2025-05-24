@@ -12,7 +12,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
 
 #game-container {
@@ -66,8 +65,7 @@ body {
 }
 
 .made-by {
-  position: absolute;
-  bottom: 10px;
   font-size: 16px;
-  color: #00bfff;
+  color: white;
+  margin-top: 5px;
 }
